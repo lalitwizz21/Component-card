@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#parent {
+  margin: 100px 140px;
+  /* border: 2px black solid; */
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#first {
+  background-color: #dd850a;
+  height: 60vh;
+  width: 17vw;
+  display: inline-block;
+  margin-right: -5.03px;
+  box-sizing: border-box;
+  padding: 4%;
+  border-radius: 3% 0% 0% 3%;
+}
+
+#second {
+  background-color: #2d7a99;
+  height: 60vh;
+  width: 17vw;
+  display: inline-block;
+  margin-right: -5.28px;
+  box-sizing: border-box;
+  padding: 4%;
+}
+
+#third {
+  background-color: #022e57;
+  height: 60vh;
+  width: 17vw;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 4%;
+  border-radius: 0% 3% 3% 0%;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#first button {
+  color: #dd850a;
+}
+
+#second button {
+  color: #2d7a99;
+}
+
+#third button {
+  color: #022e57;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+
+p {
+  text-align: left;
+  font-size: small;
+}
+
+img {
+  height: 34px;
+}
+
+#parent div:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1, 1.1);
+}
