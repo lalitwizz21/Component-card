@@ -5,7 +5,7 @@ body {
 }
 
 #parent {
-  margin: 100px 140px;
+  margin: 130px 0px;
   /* border: 2px black solid; */
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,8 +13,8 @@ body {
 
 #first {
   background-color: #dd850a;
-  height: 60vh;
-  width: 17vw;
+  height: 420px;
+  width: 19%;
   display: inline-block;
   margin-right: -5.03px;
   box-sizing: border-box;
@@ -24,8 +24,8 @@ body {
 
 #second {
   background-color: #2d7a99;
-  height: 60vh;
-  width: 17vw;
+  height: 420px;
+  width: 19%;
   display: inline-block;
   margin-right: -5.28px;
   box-sizing: border-box;
@@ -34,8 +34,8 @@ body {
 
 #third {
   background-color: #022e57;
-  height: 60vh;
-  width: 17vw;
+  height: 420px;
+  width: 19%;
   display: inline-block;
   box-sizing: border-box;
   padding: 4%;
@@ -44,10 +44,11 @@ body {
 
 button {
   background-color: white;
+  margin-top: 40px;
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
-  font-weight: bold;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -81,4 +82,35 @@ img {
 #parent div:hover {
   transition: all 0.5s ease-in-out;
   transform: scale(1.1, 1.1);
+}
+
+@media screen and (max-width: 1350px) {
+  #parent div{
+    width: 20%
+  }
+  
+}
+
+@media screen and (max-width: 1125px) {
+  #parent div{
+    width: 23%
+  }
+  
+}
+
+@media screen and (max-width: 871px) {
+  #parent div{
+    width: 300px;
+    display: block;
+    margin: 0px auto;
+    height: 340px;
+  }
+  
+  #first{
+    border-radius: 3% 3% 0% 0%;  
+  }
+  
+  #third{
+    border-radius: 0% 0% 3% 3% ;  
+  }
 }
