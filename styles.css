@@ -18,7 +18,7 @@ body {
   display: inline-block;
   margin-right: -5.03px;
   box-sizing: border-box;
-  padding: 4%;
+  padding: 6%;
   border-radius: 3% 0% 0% 3%;
 }
 
@@ -29,7 +29,7 @@ body {
   display: inline-block;
   margin-right: -5.28px;
   box-sizing: border-box;
-  padding: 4%;
+  padding: 6%;
 }
 
 #third {
@@ -38,7 +38,7 @@ body {
   width: 19%;
   display: inline-block;
   box-sizing: border-box;
-  padding: 4%;
+  padding: 6%;
   border-radius: 0% 3% 3% 0%;
 }
 
