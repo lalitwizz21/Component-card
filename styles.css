@@ -18,7 +18,7 @@ body {
   display: inline-block;
   margin-right: -5.03px;
   box-sizing: border-box;
-  padding: 3%;
+  padding: 4%;
   border-radius: 3% 0% 0% 3%;
 }
 
@@ -29,7 +29,7 @@ body {
   display: inline-block;
   margin-right: -5.28px;
   box-sizing: border-box;
-  padding: 3%;
+  padding: 4%;
 }
 
 #third {
@@ -38,13 +38,13 @@ body {
   width: 19%;
   display: inline-block;
   box-sizing: border-box;
-  padding: 3%;
+  padding: 4%;
   border-radius: 0% 3% 3% 0%;
 }
 
 button {
   background-color: white;
-  margin-top: 35px;
+  margin-top: 40px;
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
@@ -94,6 +94,7 @@ img {
 @media screen and (max-width: 1125px) {
   #parent div{
     width: 23%
+    
   }
   
 }
